@@ -1,0 +1,82 @@
+Grumman F-14D Supertomcat
+-------------------------
+
+
+Includes 3 detailed textures of the movie "Top Gun". The skins in the movie are based on real squadrons, but have a fictional appearance.
+
+Skin 1: "Iceman" and "Slider"
+
+Skin 2: "Maverick" and "Goose"
+
+Skin 3: "Cougar" and "Merlin"
+
+Skin 4: Some special skin, because I didn't know any other TG skin I could add.
+
+
+
+Mod features:
+Detailed model
+Detailed cockpit
+Working gear
+Working variable wings
+Working elevators
+Enterable for 4 persons
+Bullet impact
+Custom spec map
+Working lights
+Custom LOD models
+Custom Collision model
+
+
+
+
+
+
+------>IMPORTANT SETTINGS<------
+Open each individual file and past the new lines into it (MAKE A BACKUP)
+
+
+Your GTA/common/data/handling.dat
+
+AIRTUG 5000.0 10.0 75 0.0 -0.2 0.0 0.0 1 0.30 1.0 160.0 0.4 0.60 0.7 25.0 0.65 0.60 8.0 0.10 0.5 5.0 1.0 1.0 0.05 -0.05 0.0 0.5 3.0 1.0 1.0 1.5 0.0 45000 0022811C 04100001 13
+
+Find the $ Annihilator line and paste this above:
+
+$ AIRTUG 1.2 1.0 0.0 -0.003 0.002 0.10 0.007 -0.002 0.0007 0.0020 0.0 0.09 1.0 1.0 0.0 0.01 0.5 0.5 0.5 0.5 0.5 0.5
+
+
+GTA/common/data/vehicles.ide
+
+airtug, airtug, plane, AIRTUG, AIRTUG, VEH@STD, VEH@STD_LE1_RI1, 100, 999, 0.200, 0.200, 0.3, 2, 1.0 ,1, bangerexhaustfx+truckexhaustfx+truckfirefx+truckenginefx+ext_rare+livery
+
+
+
+Original Author:
+Ubisoft (HAWX)
+
+
+Converted, edited, gear and weapons added by:
+SkylineGTRFreak
+
+
+Script by:
+JulioNIB
+
+Download script at:
+http://www.gta4-mods.com/script/air-combat-iv-v11--fix-f19199
+
+
+
+Install
+
+You have to use Spark IV to install this mod (google is your friend). Open Your GTA/pc/models/cdimages/vehicles.img and import the .wft and .wtd files from this archive. Rebuild the .img and save.
+
+You have to use a custom .ini file for the script, download the script and use the .ini file inside:
+Scripts/JetFiles/Custom jets/F14D
+
+
+
+To use all skins, you have to enable multi livery in your simple native trainer (google or youtube offers tutorials)
+
+
+DO NOT MODIFY OR RELEASE ANYWHERE ELSE WITHOUT AUTHOR'S PERMISSION

@@ -1,0 +1,38 @@
+<weaponinfo version="1">
+	<!-- APC cannon -->
+	<weapon type="EPISODIC_20">
+		<data slot="HEAVY" firetype="INSTANT_HIT" damagetype="EXPLOSIVE" group="RIFLE_ASSAULT" targetrange="50.0" weaponrange="200.0" clipsize="1" timebetweenshots="0">
+			<damage base="100" networkplayermod="1.0" networkpedmod="1.0"/>
+			<physics force="300.0"/>
+			<reload time="200" fasttime="200" crouchtime="200"/>
+
+			<aiming accuracy="0.3">
+				<offset 				x="0.0" y="1.0" z="0.0"/>
+				<crouchedoffset x="0.0" y="1.0" z="0.0"/>
+			</aiming>
+
+			<pickup regentime="0" ammoonstreet="500"/>
+
+			<controller>
+				<rumble duration="75" intensity="0.30"/>
+			</controller>
+
+			<flags>
+				<flag>GUN</flag>
+				<flag>CAN_FREE_AIM</flag>
+				<flag>HEAVY</flag>
+			</flags>
+		</data>
+
+		<assets>
+			<effects>
+				<muzzle fx="muz_buzzard"/>
+			</effects>
+		</assets>
+	</weapon>
+
+	<!-- PARACHUTE -->
+	<weapon type="EPISODIC_21">
+		<data slot="PARACHUTE" firetype="MELEE" damagetype="MELEE" group="PUNCH_KICK"/>
+	</weapon>
+</weaponinfo>

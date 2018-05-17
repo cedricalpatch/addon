@@ -1,0 +1,8 @@
+<EpisodeTwo>
+  <game content="ascii">resources:/e2veh/civ_game.dat</game>
+  <sounds content="ascii">resources:/e2veh/civ_sounds.dat</sounds>
+  <wavepack content="ascii">resources:/e2veh/civ_sfx.rpf</wavepack>
+  <staticbank content="ascii">EP2_SFX\EP2_RESIDENT</staticbank>
+  <category_patch content="ascii">resources:/e2veh/categories.dat</category_patch>
+  <curves content="ascii">resources:/e2veh/civ_curves.dat</curves>
+</EpisodeTwo>

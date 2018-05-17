@@ -1,0 +1,17 @@
+files {
+	'carcols.dat',
+	'categories.dat15',
+	'civ_audio.xml',
+	'civ_curves.dat12',
+	'civ_game.dat16',
+	'civ_sfx.rpf',
+	'civ_sounds.dat15',
+	'content.dat',
+	'explosionfx.dat',
+	'gta_ep2.wpfl',
+	'handling.dat',
+	'setup.xml',
+	'vehicles.ide',
+	'weaponfx.dat',
+	'weaponinfo.xml',
+}

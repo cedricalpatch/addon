@@ -1,0 +1,23 @@
+cars
+apc,		apc,		car,		APC,		APC,		VEH@VAN,	NULL,		1,	1,		0.3552,	0.3552,		0.3,	2,	1.5,	0	noboot+big+avoidturns+truckfirefx+truckenginefx
+
+police3,	police3,	car,		FBI,		POLICE,	VEH@STD,	NULL,		100,	999,		0.2610, 0.2610,		0,	5,	1.0,	0	ext_strong+ext_requi
+policew,	policew,	car,		FBI,		POLICE,	VEH@STD,	NULL,		100,	999,		0.2610, 0.2610,		0,	5,	1.0,	0	ext_strong+ext_requi
+police4, 	police4,	car,		POLICE4,	POLICE,	VEH@STD,	NULL,		100,	999,		0.2774,	0.2774,		0,	2,	1.0,	0	-
+cognoscenti,	cognoscenti, 	car, 		COGNOS, 	COGNONTI, 	VEH@STD,	VEH@STD_LO4_LO4,	100,	999,		0.2000,	0.2000,		0,	5,	1.0	,0  -
+a6,		         a6,    car,		A6,	       COGNONTI, 	VEH@STD,	VEH@STD_LO3_LO3,	10,	999,		0.2765,	0.2765,		0,	5,	1.0	,1	ext_gang+ext_all+ext_strong+livery
+buccaneer,	buccaneer,	car,		BUCCANEER,	TURISMO,	VEH@STD,	VEH@STD_LO1_LO1,	100,	999,		0.3211,	0.3211,		0	2,	1.2	,0,	ext_taxi+ext_requi
+ADMIRAL,	ADMIRAL,	car,		admiral,	HUNT,		VEH@STD,	VEH@STD_LO1_LO1,	100,	50,		0.2978,	0.2978,		0,	2,	1.2	,0	ext_gang+ext_all
+blista,		blista,		car,		BLISTA,		BLISTA,		VEH@STD,	VEH@STD_LE1_RI1,	100,	999,		0.2272,	0.2272,		0,	5,	1.0	,0,	ext_sunroof+ext_strong
+supergt,	supergt,	car,		SUPERGT,	SUPER,		VEH@LOW,	VEH@LOW_LE2_RI2,	50,	5,		0.2413,	0.2413,		0,	5,	1.0	,0	sports
+sabregt, 	sabregt,	car,		SABREGT,	SABREGT,	VEH@LOW,	VEH@STD_LE1_RI1,	5,	10,		0.2272,	0.2272,		0,	5,	1.0	,0   livery+delivery
+r5,              r5,    car,		R5,          BLISTA,    VEH@LOW,	VEH@LOW_LE1_RI1,	100, 999,		0.2826,	0.2826,		0,	5,	1.5	,0	ext_requi+livery
+turismo, 	turismo,	car,		TURISMO,	SABREGT,	VEH@LOW,	VEH@STD_LE1_RI1,	5,	10,		0.2272,	0.2272,		0,	5,	1.0	,0   livery+delivery
+reefer,		reefer,		boat,		REEFER,		JETMAX,		veh@boat_speed,	NULL,		100,	999,		0.50,	0.50,		0,	5,	1.5	,0,	noboot
+
+policeb,	policeb,	bike,		POLICEB,	HELLFURY,	veh@bike_chopper,	NULL,	100,	999,	0.2294, 0.1987,		0,	4,	1.0,	0	noboot
+end
+
+txdp
+apc, vehshare_truck
+end
